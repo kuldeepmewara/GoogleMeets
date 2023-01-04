@@ -2,3 +2,9 @@ web RTC
 file are send to the receiver without the intervention of server(peer to peer)
 
 web rtc is for media and sockets is for texts
+
+//syntax to get any variable in ejs
+<script>
+      const myname = "<%= Myname %>";
+      const roomId = "<%= roomid %>";
+</script>
