@@ -57,7 +57,7 @@
             <h4 class="modal-title">Invite People</h4>
           </div>
           <div class="modal-body">
-            <p id="roomid"><strong><%= roomid %></strong></p>
+            <p id="roomid"><strong><%= roomid %> </strong></p>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-white" onclick="cancel()">
@@ -65,6 +65,33 @@
             </button>
             <button type="button" class="btn btn-primary" onclick="copy()">
               Copy
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="getParticipantsModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Participants</h4>
+          </div>
+          <div class="modal-body">
+            <strong>
+              <ol id="participantsList"></ol>
+            </strong>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-white" onclick="cancel()">
+              Close
             </button>
           </div>
         </div>
@@ -96,7 +123,7 @@
               <i class="fas fa-user-plus"></i>
               <span>Invite</span>
             </div>
-            <div class="main_controls_button">
+            <div class="main_controls_button" onclick="participants()">
               <i class="fas fa-user-friends"></i>
               <span>Participants</span>
             </div>
@@ -108,7 +135,7 @@
           </div>
         </div>
       </div>
-      <script src="http://localhost:3030/public/main.js"></script>
     </div>
+    <script src="http://localhost:3030/public/main.js"></script>
   </body>
 </html>
