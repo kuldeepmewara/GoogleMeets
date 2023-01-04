@@ -37,14 +37,19 @@ h1 {
     bottom: 0;
     left: 40%;
 }
+.video-grid h1{
+    color:white
+}
+
 
 video {
     display: block;
     flex: 1;
     object-fit: cover;
-    border: 5px solid #000;
+    border: 1px solid rgb(209, 201, 201);
     max-width: 600px;
-    border-radius: 25px;
+    border-radius: 20px;
+    margin: 1px;
 }
 
 .mainclone {
@@ -108,9 +113,11 @@ video {
     text-decoration: none;
     color:#ffffff;
 }
-.main_controls_button:hover {
-    background-color: #686666;
+.leave_meeting >a:hover{
+    text-decoration: none;
     color:#ffffff;
+}
+.main_controls_button:hover {
     border-radius: 25px;
 }
 ol{

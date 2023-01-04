@@ -1,5 +1,5 @@
 body {
-    background:black;
+    background:#aba3f5;
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -15,7 +15,7 @@ body {
     position: relative;
     z-index: 1;
     background-color: white;
-    max-width: 200px;
+    max-width: 400px;
     margin: 0 auto 100px;
     padding: 25px;
     text-align: center
@@ -36,23 +36,22 @@ body {
 .form button {
     font-family: "Roboto", "sans-serif";
     outline: 0;
-    background: #4CAF50;
+    background: #4495d8;
     width: 100%;
     border: 0;
     padding: 10px;
     color: #ffffff;
-    font-size: 10px;
+    font-size: 20px;
     cursor: pointer;
 }
 
 .form p {
     font-family: "Roboto", "sans-serif";
-    font-size: 60%;
     margin: 15px
 }
 
 .form button:hover {
-    background: #43A047
+    background: #4495d8;
 }
 
 .form .unknown-form {
